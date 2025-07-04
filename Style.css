@@ -1,0 +1,114 @@
+* {
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+	background: #E7FFFF;
+}
+
+.pertama {
+	width: 1100px;
+	margin: auto;
+	position: relative;
+
+}
+
+.logo a {
+	font-size: 50px;
+	font-weight: 850;
+	float: left;
+	font-family: courier;
+	color: black;
+}
+
+.menu {
+	float: right;
+}
+
+nav {
+	width: 100%;
+	margin: auto;
+	display: flex;
+	line-height: 80px;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	background-image: linear-gradient(to right, #00A2E2, #1CB4F0, #ADD8E6);
+	z-index: 1;
+	border-bottom: 1px solid #362222;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	padding: 0px 16px 0px 16px;
+	text-decoration: none;
+}
+
+ nav ul li a:hover {
+	text-decoration: underline;
+}
+
+section {
+	margin: auto;
+	display: flex;
+	margin-bottom: 50px;
+}
+
+img {
+	margin-top: 50px;
+}
+
+.colom {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.colom .deskripsi {
+	font-family: 'comic sans-ms';
+	margin-left: 30px;
+}
+
+.tengah {
+	text-align: center;
+	width: 100%;
+}
+
+.list-genre {
+	width: 100%;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.genre2 {
+	width: 20%;
+	margin: 0 auto;
+}
+
+.genre2 img {
+	width: 80%;
+	border-radius: 50%;
+}
+
+.tengah2 {
+	text-align: center;
+	width: 100%;
+}
